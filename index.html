@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+
+        <header>
+            <h1>Weather Dashboard</h1>
+        </header>
+    
+        <aside>
+            <h2>Search for a City</h2>
+            <input id="cityName" type="text" placeholder="City Name" />
+            <button id="searchBtn" type="submit" class="btnCustom"> Search </button>
+            <h2>Search History</h2>
+                <div>
+                    <section id="cardHistory"></section>
+                </div>
+        </aside>
+    
+        <div id="weather">
+            <div>
+                <section id="currentWeather">
+                    <h2>
+                        <span id="cityResult"> City Name</span>
+                    </h2>
+                    <p>
+                        Temp: <span id="temp"></span> <br>
+                        Wind: <span id="wind"></span> <br>
+                        Humidity: <span id="humidity"></span> 
+                    </p>
+                </section>
+            </div>
+        </div>
+    
+        <div>
+            <section id="fiveDayForecast">
+                <h2>5 Day Forecast:</h2>
+                <div id="forecasrCards"></div>
+            </section>
+        </div>
+        
+    </body>
+
+    </main>
+
+</html>
